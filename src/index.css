@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Source Code Pro", monospace;
+  font-stretch: 100%;
+  font-style: NORMAL;
+  font-weight: 200;
+  src: url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap")
+    format("variable");
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  background-color: #f5f2f2;
+}
+#app {
+  font: 1vw Source Code Pro;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+#legend-svg,
+#chart {
+  padding: 1%;
+}
+#legend-title {
+  fill: black;
+  stroke: black;
+  stroke-width: 0.02;
+  font-size: 4px;
+}
+.legend-text {
+  fill: black;
+  stroke: black;
+  stroke-width: 0.02;
+  font-size: 3.5px;
+}
+#tooltip {
+  font-size: .5vh
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1%;
+}
+.ax {
+  font-size: 0.3vh;
+}
+.ax > path {
+  stroke-width: 0.25;
+}
+.tick {
+  stroke-width: 0.25;
+}
